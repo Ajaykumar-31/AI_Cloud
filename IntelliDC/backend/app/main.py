@@ -43,6 +43,17 @@ app.include_router(ai.router)
 app.include_router(alerts.router)
 app.include_router(reports.router)
 
+@app.get("/")
+@app.get("/api")
+def root():
+    return {
+        "status": "online",
+        "service": "IntelliDC API",
+        "documentation": "/docs",
+        "health": "/api/health"
+    }
+
 @app.get("/api/health")
 def health_check():
     return {"status": "healthy", "service": "IntelliDC API"}
+
