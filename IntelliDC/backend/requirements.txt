@@ -12,3 +12,4 @@ scikit-learn
 pytest
 email-validator
 pydantic-settings
+python-multipart
