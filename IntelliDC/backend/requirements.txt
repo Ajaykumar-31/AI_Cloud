@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+firebase-admin
+python-dotenv
+python-jose
+passlib
+pydantic
+requests
+numpy
+pandas
+scikit-learn
+pytest
+email-validator
+pydantic-settings
