@@ -9,6 +9,6 @@ class Settings(BaseSettings):
     THINGSPEAK_CHANNEL_ID: str
     THINGSPEAK_READ_API_KEY: str
 
-    model_config = SettingsConfigDict(env_file=".env")
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()
