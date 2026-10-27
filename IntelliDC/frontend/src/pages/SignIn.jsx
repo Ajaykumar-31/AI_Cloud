@@ -53,7 +53,7 @@ const SignIn = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-4 py-3 bg-slate-950/50 border border-slate-700/50 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all text-slate-200 placeholder-slate-600"
-              placeholder="admin@intellidc.com"
+              placeholder="admin@iot.com"
               required
             />
           </div>
